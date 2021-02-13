@@ -16,7 +16,7 @@ public class Menu
 	WebElement share;
 	
 	@FindBy(linkText="Deposits")
-	WebElement deposits;
+	WebElement deposits; 
 	
 	
 	@FindBy(linkText="Loan")
