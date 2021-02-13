@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60673" started-at="2020-11-30T18:19:16Z" finished-at="2020-11-30T18:20:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60673" started-at="2020-11-30T18:19:16Z" finished-at="2020-11-30T18:20:17Z">
+      <class name="com.score.testcases.InvidaulDetails">
+        <test-method status="PASS" signature="invokebrowser()[pri:0, instance:com.score.testcases.InvidaulDetails@ae45eb6]" name="invokebrowser" is-config="true" duration-ms="11894" started-at="2020-11-30T18:19:16Z" finished-at="2020-11-30T18:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokebrowser -->
+        <test-method status="PASS" signature="enterInvidualdetails()[pri:0, instance:com.score.testcases.InvidaulDetails@ae45eb6]" name="enterInvidualdetails" duration-ms="45310" started-at="2020-11-30T18:19:28Z" finished-at="2020-11-30T18:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvidualdetails -->
+        <test-method status="FAIL" signature="enterinvidualdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.score.testcases.InvidaulDetails@ae45eb6]" name="enterinvidualdetails" duration-ms="3018" started-at="2020-11-30T18:20:14Z" data-provider="dataset" finished-at="2020-11-30T18:20:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CUST 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suraja]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Miss.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sreedhar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[WIFE]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FATHER]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Amat house]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UKS Road]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Calicut]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[495288227]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[98475775]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[956888]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[KYC]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Good]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Utility.mousescroll.scroll(mousescroll.java:12)
+at com.score.testcases.InvidaulDetails.enterinvidualdetails(InvidaulDetails.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterinvidualdetails -->
+      </class> <!-- com.score.testcases.InvidaulDetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
